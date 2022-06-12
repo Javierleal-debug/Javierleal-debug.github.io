@@ -1,0 +1,104 @@
+:root{
+    --verde: #7be65d;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --gris: #979797;
+
+}
+
+html{
+    /* 1rem = 10 px*/
+    font-size: 16px; 
+    font-family: 'Krub',sans-serif;  
+    background-image: linear-gradient(to top, var(--negro)25%,var(--gris)25% 50%,var(--blanco)25% 75%,var(--verde)25%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+p{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.titulo span{
+    font-size: 2.5rem;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
+
+a{
+    font-size: 1.8rem;
+    color: black;
+}
+
+input{
+    background-color: var(--verde);
+    color: var(--negro);
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 20%;
+    text-align: center;
+    border: none;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.parrafo{
+   justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links{
+    line-height: 5rem;
+    padding-left: 4rem;
+
+}
+
+
+.picture{
+width: 20%;
+padding-left: 10rem;
+}
+
+
